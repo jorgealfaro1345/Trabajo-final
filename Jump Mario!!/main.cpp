@@ -7,6 +7,6 @@ using namespace std;
 int main()
 {
     Juego *partida1;
-    partida1 = new Juego(800,600,"Jump Mario!!");
+    partida1 = new Juego(600,697,"Jump Mario!!");
     return 0;
 }

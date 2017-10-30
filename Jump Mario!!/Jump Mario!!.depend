@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1509310769 source:d:\c++\jump mario!!\main.cpp
+1509319006 source:d:\c++\jump mario!!\main.cpp
 	"Juego.h"
 	<SFML/Graphics.hpp>
 	<iostream>
@@ -409,10 +409,10 @@
 	<SFML/Graphics.hpp>
 	<time.h>
 
-1509310223 d:\c++\jump mario!!\include\juego.h
+1509345985 d:\c++\jump mario!!\include\juego.h
 	<SFML/Graphics.hpp>
 
-1509310223 source:d:\c++\jump mario!!\src\juego.cpp
+1509346359 source:d:\c++\jump mario!!\src\juego.cpp
 	"Juego.h"
 	<SFML/Graphics.hpp>
 
