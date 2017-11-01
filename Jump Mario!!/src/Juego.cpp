@@ -56,7 +56,7 @@ Juego::Juego(int _ancho, int _alto,std::string _nombre)
 
     //sprite2->setPosition(280,615);
 
-    sprite2->setPosition(x+dx,y+dy);
+    sprite2->setPosition(x,y);
 
     for (int i=0;i<10;i++)
       {
@@ -77,7 +77,7 @@ void Juego::gameloop()
 {
     while(ventana1->isOpen())
     {
-        //agregar_movimiento();
+        agregar_movimiento();
         iniciar_eventos();
         mostrar();
     }
@@ -102,23 +102,6 @@ void Juego::mostrar()
 
 void Juego::iniciar_eventos()
 {
-    dy+=0.2;
-    y+=dy;
-    dx+=0.2;
-    if (y>500)  dy=-10;
-
-	if (y<h)
-    for (int i=0;i<10;i++)
-    {
-      y=h;
-      plat[i].y=plat[i].y-dy;
-      if (plat[i].y>533) {plat[i].y=0; plat[i].x=rand()%400;}
-    }
-
-	for (int i=0;i<10;i++)
-    if ((x+50>plat[i].x) && (x+20<plat[i].x+68) && (y+70>plat[i].y) && (y+70<plat[i].y+14) && (dy>0))  dy=-10;
-
-
     while(ventana1->pollEvent(*evento1))
     {
         switch(evento1->type)
@@ -127,43 +110,22 @@ void Juego::iniciar_eventos()
             ventana1->close();
             exit(1);
             break;
-
-        case Event::KeyPressed:
-            if(Keyboard::isKeyPressed(Keyboard::Left))
-            {
-                sprite2->setPosition(sprite2->getPosition().x - dx  ,sprite2->getPosition().y);
-            }
-            else if(Keyboard::isKeyPressed(Keyboard::Right))
-            {
-                sprite2->setPosition(sprite2->getPosition().x + dx ,sprite2->getPosition().y);
-            }
-
         }
-        sprite2->setPosition(x,y);
     }
-
 }
 
 
-/*void Juego::agregar_movimiento()
+void Juego::agregar_movimiento()
 {
-    dy+=0.2;
-    y+=dy;
-    if (y>500)  dy=-10;
+    if (Keyboard::isKeyPressed(Keyboard::Right)) x+=3;
+    if (Keyboard::isKeyPressed(Keyboard::Left)) x-=3;
 
-	if (y<h)
-    for (int i=0;i<10;i++)
-    {
-      y=h;
-      plat[i].y=plat[i].y-dy;
-      if (plat[i].y>533) {plat[i].y=0; plat[i].x=rand()%400;}
-    }
+    dy+=0.2;//la velocidad en q sube
+    y+=dy;// hace q suba el personaje
+    if (y>600)  dy=-10;//indica desde donde va a rebotar
 
-	for (int i=0;i<10;i++)
-    if ((x+50>plat[i].x) && (x+20<plat[i].x+68) && (y+70>plat[i].y) && (y+70<plat[i].y+14) && (dy>0))  dy=-10;
-
-	sprite2->setPosition(x,y);
-
+    sprite2->setPosition(x,y);//desde el 143 hasta aqui es el salto
 }
 
-*/
+
+

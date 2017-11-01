@@ -13,8 +13,7 @@ class Juego
         void agregar_movimiento();
 
     private:
-        struct point
-        { int x,y;};
+
         RenderWindow *ventana1;
         int fps;
         Texture *textura1;
@@ -24,11 +23,9 @@ class Juego
         Sprite *sprite2;
         Sprite *sprite3;
         Event *evento1;
-        int x=280,y=615,h=200;
+        struct point{ int x,y;};
+        int x=280,y=615,h=0;
         float dx=0,dy=0;
-        //Vector2f velocidad ;
-        //Vector2f aceleracion ;
-        float gravity ;
         point plat[20];
 
 };
