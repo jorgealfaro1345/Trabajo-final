@@ -1,5 +1,6 @@
 #include "Juego.h"
 #include <SFML/Graphics.hpp>
+#include <time.h>
 using namespace sf;
 
 Juego::Juego(int _ancho, int _alto,std::string _nombre)
@@ -42,28 +43,11 @@ Juego::Juego(int _ancho, int _alto,std::string _nombre)
 
     sprite3->setTexture(*textura3);
 
-    point plat[20];
-
-    for (int i=0;i<10;i++)
-      {
-       plat[i].x=rand()%400;
-       plat[i].y=rand()%533;
-      }
-
 //posiciones de inicio de los sprite
 
     sprite1->setPosition(0,0);
 
-    //sprite2->setPosition(280,615);
-
     sprite2->setPosition(x,y);
-
-    for (int i=0;i<10;i++)
-      {
-        sprite3->setPosition(plat[i].x,plat[i].y);
-      }
-
-/*     sprite3->setPosition(200,350);*/
 
     evento1 = new Event;
 
@@ -88,13 +72,17 @@ void Juego::gameloop()
 
 void Juego::mostrar()
 {
+    //srand(time(0));
+
     ventana1->clear();
+
+    //srand(time(0));
 
     ventana1->draw(*sprite1);
 
     ventana1->draw(*sprite2);
 
-    ventana1->draw(*sprite3);
+    agregar_plataformas();
 
     ventana1->display();
 
@@ -126,6 +114,46 @@ void Juego::agregar_movimiento()
 
     sprite2->setPosition(x,y);//desde el 143 hasta aqui es el salto
 }
+
+
+void Juego::agregar_plataformas()
+{
+    srand(time(0));
+
+    point plat[20];
+
+    for (int i=0;i<10;i++)//
+      {//
+       plat[i].x=rand()%600;
+       plat[i].y=rand()%690;//posiciones vertical horizontal
+      }//
+
+    if (y<h)//
+    for (int i=0;i<10;i++)//
+    {//
+      y=h;// escenario infinito
+      plat[i].y=plat[i].y-dy;//
+      if (plat[i].y>697)
+      {
+          plat[i].y=0; plat[i].x=rand()%600;
+      }//
+    }//
+
+    for (int i=0;i<11;i++)
+    {
+        if ((x+50>plat[i].x) && (x+20<plat[i].x+68) && (y+70>plat[i].y) && (y+70<plat[i].y+14) && (dy>0))
+        {
+            dy=-10;
+        }
+    }
+
+    for (int i=0;i<10;i++)
+    {
+    sprite3->setPosition(plat[i].x,plat[i].y);
+    ventana1->draw(*sprite3);
+    }
+}
+
 
 
 

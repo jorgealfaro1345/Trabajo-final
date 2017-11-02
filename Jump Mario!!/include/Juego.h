@@ -11,6 +11,8 @@ class Juego
         void mostrar();
         void iniciar_eventos();
         void agregar_movimiento();
+        void agregar_plataformas();
+        void colision_de_plataformas();
 
     private:
 
