@@ -8,15 +8,14 @@ class Juego
     public:
         Juego(int _ancho, int _alto,std::string _nombre);
         void gameloop();
-        void mostrar();
+        void mostrar_and_setposicion();
         void iniciar_eventos();
         void agregar_movimiento();
         void agregar_plataformas();
-        void colision_de_plataformas();
 
     private:
 
-        RenderWindow *ventana1;
+        RenderWindow /*menu,*/*pantalla_de_juego;
         int fps;
         Texture *textura1;
         Texture *textura2;

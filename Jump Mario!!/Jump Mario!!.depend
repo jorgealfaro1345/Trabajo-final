@@ -416,15 +416,16 @@
 	"Juego.h"
 	<SFML/Graphics.hpp>
 
-1509319006 source:d:\users\pavilion\documents\github\trabajo-final\jump mario!!\main.cpp
+1509818993 source:d:\users\pavilion\documents\github\trabajo-final\jump mario!!\main.cpp
 	"Juego.h"
+	"menu.h"
 	<SFML/Graphics.hpp>
 	<iostream>
 
-1509554447 d:\users\pavilion\documents\github\trabajo-final\jump mario!!\include\juego.h
+1509816919 d:\users\pavilion\documents\github\trabajo-final\jump mario!!\include\juego.h
 	<SFML/Graphics.hpp>
 
-1509572088 source:d:\users\pavilion\documents\github\trabajo-final\jump mario!!\src\juego.cpp
+1509816918 source:d:\users\pavilion\documents\github\trabajo-final\jump mario!!\src\juego.cpp
 	"Juego.h"
 	<SFML/Graphics.hpp>
 	<time.h>
@@ -436,4 +437,12 @@
 
 1509493796 d:\jump mario!!\include\juego.h
 	<SFML/Graphics.hpp>
+
+1509822786 d:\users\pavilion\documents\github\trabajo-final\jump mario!!\include\menu.h
+	<SFML/Graphics.hpp>
+
+1509819173 source:d:\users\pavilion\documents\github\trabajo-final\jump mario!!\src\menu.cpp
+	"menu.h"
+	<SFML/Graphics.hpp>
+	<time.h>
 
