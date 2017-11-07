@@ -2,6 +2,7 @@
 #include "Juego.h"
 #include <SFML/Graphics.hpp>
 #include <time.h>
+#include<iostream>
 using namespace sf;
 
 menu ::menu (int _ancho, int _alto,std::string _nombre)
@@ -37,6 +38,8 @@ menu ::menu (int _ancho, int _alto,std::string _nombre)
     sprite2->setTexture(*textura2);
 
     sprite3->setTexture(*textura3);
+
+    menus->setMouseCursorVisible(false);
 
     evento1 = new Event;
 
@@ -80,9 +83,16 @@ void menu::iniciar_eventos()
             exit(1);
             break;
 
-        case Event::MouseButtonPressed:
-            sprite3->setPosition(Mouse::getPosition(*menus));
+        case Event::MouseMoved:
+            sprite3->setPosition((Vector2f)Mouse::getPosition(*menus));
             break;
+
+        case Event::MouseButtonPressed:
+            FloatRect pos_cursor(Mouse::getPosition(*menus),(Vector2f)sprite3.getTexture()->getSize());
+            if(sprite2->get_sprite().getGlobalBounds().intersects(pos_cursor));
+            {
+                sprite2 = NULL;
+            }
         }
     }
 }
