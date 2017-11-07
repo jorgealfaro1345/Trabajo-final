@@ -87,12 +87,12 @@ void menu::iniciar_eventos()
             sprite3->setPosition((Vector2f)Mouse::getPosition(*menus));
             break;
 
-        case Event::MouseButtonPressed:
+        /*case Event::MouseButtonPressed:
             FloatRect pos_cursor(Mouse::getPosition(*menus),(Vector2f)sprite3.getTexture()->getSize());
             if(sprite2->get_sprite().getGlobalBounds().intersects(pos_cursor));
             {
                 sprite2 = NULL;
-            }
+            }*/
         }
     }
 }

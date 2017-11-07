@@ -1,15 +1,14 @@
 # depslib dependency file v1.0
-1509319006 source:d:\c++\jump mario!!\main.cpp
-	"Juego.h"
+1510075935 source:d:\users\pavilion\desktop\juego mejorado\main.cpp
+	"Menus.h"
+	<iostream>
 	<SFML/Graphics.hpp>
 	<iostream>
+	"Juego.h"
 
-1509299457 source:d:\c++\jump mario!!\src\ventana.cpp
-	"Ventana.h"
+1510081552 d:\users\pavilion\desktop\juego mejorado\include\menus.h
 	<SFML/Graphics.hpp>
-	<time.h>
-
-1509299457 d:\c++\jump mario!!\include\ventana.h
+	"Juego.h"
 
 1486736398 c:\bibliotecas graficas\sfml-2.4.2\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -399,55 +398,25 @@
 	<string>
 	<vector>
 
-1509299271 d:\c++\jump mario!!\include\velocidad.h
-	"Ventana.h"
-
-1509301680 d:\c++\jump mario!!\include\jugador.h
-
-1509301710 source:d:\c++\jump mario!!\src\jugador.cpp
-	"Jugador.h"
+1510080365 source:d:\users\pavilion\desktop\juego mejorado\src\menus.cpp
+	"Menus.h"
+	"Juego.h"
 	<SFML/Graphics.hpp>
 	<time.h>
 
-1509345985 d:\c++\jump mario!!\include\juego.h
-	<SFML/Graphics.hpp>
-
-1509346359 source:d:\c++\jump mario!!\src\juego.cpp
-	"Juego.h"
-	<SFML/Graphics.hpp>
-
-1510000225 source:d:\users\pavilion\documents\github\trabajo-final\jump mario!!\main.cpp
-	"Juego.h"
-	"menu.h"
-	<SFML/Graphics.hpp>
-	<iostream>
-
-1509989220 d:\users\pavilion\documents\github\trabajo-final\jump mario!!\include\juego.h
+1510080199 d:\users\pavilion\desktop\juego mejorado\include\juego.h
 	<SFML/System.hpp>
 	<SFML/Graphics.hpp>
 
-1509989308 source:d:\users\pavilion\documents\github\trabajo-final\jump mario!!\src\juego.cpp
+1510080213 source:d:\users\pavilion\desktop\juego mejorado\src\juego.cpp
 	"Juego.h"
 	<SFML/Graphics.hpp>
 	<time.h>
 	<cstdlib>
 	<iostream>
 
-1509319006 source:d:\jump mario!!\main.cpp
-	"Juego.h"
-	<SFML/Graphics.hpp>
-	<iostream>
+1510080315 source:d:\users\pavilion\desktop\juego mejorado\src\game_over.cpp
+	"Game_Over.h"
 
-1509493796 d:\jump mario!!\include\juego.h
-	<SFML/Graphics.hpp>
-
-1509822786 d:\users\pavilion\documents\github\trabajo-final\jump mario!!\include\menu.h
-	<SFML/Graphics.hpp>
-
-1510074178 source:d:\users\pavilion\documents\github\trabajo-final\jump mario!!\src\menu.cpp
-	"menu.h"
-	"Juego.h"
-	<SFML/Graphics.hpp>
-	<time.h>
-	<iostream>
+1510080314 d:\users\pavilion\desktop\juego mejorado\include\game_over.h
 
