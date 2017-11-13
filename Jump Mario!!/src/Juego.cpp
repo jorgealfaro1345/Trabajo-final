@@ -196,7 +196,7 @@ void Juego::agregar_plataformas()
 
     for (int i=0;i<11;i++)
     {
-        if ((x+50>plat[i].x) && (x+20<plat[i].x+107) &&(y+70>plat[i].y) && (y+70<plat[i].y+14) && (dy>0)){
+        if ((x+50>plat[i].x) /*&& (x+20<plat[i].x+107)*/ &&(y+70>plat[i].y) && (y+70<plat[i].y+14) && (dy>0)){
             dy=-10;//para que rebote en plataformas
         }
     }
