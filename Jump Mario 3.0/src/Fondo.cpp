@@ -1,0 +1,32 @@
+#include "Fondo.h"
+
+//LIBRERIAS DE SFML
+#include <SFML/Graphics.hpp>
+#include<SFML/Audio.hpp>
+
+using namespace sf;
+
+Fondo::Fondo(std::string nombre_carpeta,std::string nombre_imagen)
+{
+    txt_fond = new Texture;
+    spr_fond = new Sprite;
+    txt_fond->loadFromFile("Imagenes/"+nombre_carpeta+"/"+nombre_imagen+".png");
+    spr_fond->setTexture(*txt_fond);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Sprite Fondo::dev_spr_fond()
+{
+    return *spr_fond;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Fondo::~Fondo()
+{
+    delete txt_fond;
+    delete spr_fond;
+}

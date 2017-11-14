@@ -1,0 +1,55 @@
+#include "Goombas.h"
+
+//CLASE CREADA
+#include "Enemigos.h"
+#include"Juego.h".
+
+//LIBRERIAS DE SFML
+#include <SFML/Graphics.hpp>
+#include<SFML/Audio.hpp>
+
+using namespace sf;
+
+Goombas::Goombas() : Enemigos()
+{
+
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+void Goombas::Imagen_sprite()
+{
+    txt_enemigo->loadFromFile("Imagenes/enemigos/Gombas/Gombas1.png");
+    spr_enemigo->setTexture(*txt_enemigo);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+/*void Goombas::Movimiento()
+{
+    ex+=0.2;
+    enem_x+=ex;
+    if(enem_x>Juego->plat_ladrillos.plat.x+107)
+    {
+        txt_enemigo->loadFromFile("Imagenes/enemigos/Gombas/Gombas1.png");
+        enem_x-=ex;
+
+    }
+    if(enem_x<plat_ladrillos.plat.x)
+    {
+        txt_enemigo->loadFromFile("Imagenes/enemigos/Gombas/Gombas4.png");
+        enem_x+=ex;
+
+    }
+
+}*/
+
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+Goombas::~Goombas()
+{
+
+}
