@@ -1,0 +1,20 @@
+Complicaciones:
+
+*La primera complicacion fue crear las plataformas ya que estas deben dar la percepcion de que son infinitas y 
+ que se muestran segun el personaje suba en el mapa.Se supero con la utilizacion de numeros random y una estructura.
+
+*La segunda complicacion fue pasar todas mis funciones a clases pero mediante las referencias y sentido del orden en
+ sucedian los eventos se soluciono.
+
+*La tercera complicacion fue crear los enemigos ya que no todos deberian ser de una sola clase por que todos serian 
+ iguales y seria poco interesante. la solucion fue que mediante la herencia y el polimorfismo les demos diferente  
+ imagen y que en el constructor del juego utilicemos un vector.
+
+*La cuarta complicacion fue cuando deseaba realizar el movimiento de mis enemigos cada uno diferente segun la clase hija 
+ a la que correspondiera con su respectiva colision , la solucion fue declarar la posicion en x segun las plataformas en
+ el constructor del juego en la recta horizontal.
+
+*La quinta y ultima complicacion fue hallar la manera de generar puntaje y de mostrar el puntaje mayor, para eso se uti-
+ lizo plantillas.
+
+ 

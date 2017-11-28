@@ -854,92 +854,98 @@
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 
-1510632726 source:d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\main.cpp
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
-	"Juego.h"
-	"Menu.h"
-
-1510636995 d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\include\juego.h
+1511826657 source:d:\users\pavilion\desktop\jump mario 3.0\src\enemigos.cpp
 	"Enemigos.h"
-	"Goombas.h"
+	"time.h"
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
+
+1511826657 d:\users\pavilion\desktop\jump mario 3.0\include\enemigos.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511836166 d:\users\pavilion\desktop\jump mario 3.0\include\plataformas.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Sonidos.h"
+	"Enemigos.h"
+
+1511027825 source:d:\users\pavilion\desktop\jump mario 3.0\src\fondo.cpp
+	"Fondo.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511660040 d:\users\pavilion\desktop\jump mario 3.0\include\fondo.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511826657 source:d:\users\pavilion\desktop\jump mario 3.0\src\goombas.cpp
+	"Goombas.h"
+	<iostream>
+	"Enemigos.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511826657 d:\users\pavilion\desktop\jump mario 3.0\include\goombas.h
+	"Enemigos.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511841451 d:\users\pavilion\desktop\jump mario 3.0\include\juego.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
 	"Plataformas.h"
 	"Personaje.h"
 	"Game_over.h"
 	"Enemigos.h"
 	"Fondo.h"
+	"Sonidos.h"
+	"Puntaje.h"
 
-1510631769 d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\include\enemigos.h
-	"Plataformas.h"
+1511818274 d:\users\pavilion\desktop\jump mario 3.0\include\personaje.h
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
+	"Texto.h"
 
-1510632726 d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\include\plataformas.h
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
-
-1510631769 d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\include\goombas.h
-	"Enemigos.h"
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
-
-1510630124 d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\include\personaje.h
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
-
-1510637082 d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\include\game_over.h
+1511845248 d:\users\pavilion\desktop\jump mario 3.0\include\game_over.h
 	<SFML/System.hpp>
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	"Texto.h"
+	"Personaje.h"
+	"Puntaje.h"
 
-1510627448 d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\include\texto.h
+1511763835 d:\users\pavilion\desktop\jump mario 3.0\include\texto.h
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 
-1510637140 d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\include\fondo.h
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
-
-1510632726 d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\include\menu.h
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
+1511845675 source:d:\users\pavilion\desktop\jump mario 3.0\src\juego.cpp
 	"Juego.h"
-	"Texto.h"
-	"Fondo.h"
-
-1510631769 source:d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\src\enemigos.cpp
-	"Enemigos.h"
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
-	"Plataformas.h"
-
-1510636925 source:d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\src\fondo.cpp
-	"Fondo.h"
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
-
-1510631769 source:d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\src\goombas.cpp
-	"Goombas.h"
-	"Enemigos.h"
-	"Juego.h"
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
-
-1510637093 source:d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\src\juego.cpp
-	"Juego.h"
+	"time.h"
+	"sstream"
+	"iostream"
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	"Plataformas.h"
 	"Game_over.h"
 	"Enemigos.h"
 	"Goombas.h"
+	"Koopasv.h"
 	"Menu.h"
 	"Fondo.h"
+	"Sonidos.h"
+	"Puntaje.h"
 
-1510627684 source:d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\src\menu.cpp
+1511678060 d:\users\pavilion\desktop\jump mario 3.0\include\menu.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Juego.h"
+	"Texto.h"
+	"Fondo.h"
+	"Sonidos.h"
+
+1511832815 source:d:\users\pavilion\desktop\jump mario 3.0\src\menu.cpp
 	"Menu.h"
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
@@ -947,19 +953,282 @@
 	"Juego.h"
 	"Texto.h"
 	"Fondo.h"
+	"Sonidos.h"
 
-1510637193 source:d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\src\personaje.cpp
+1511813376 source:d:\users\pavilion\desktop\jump mario 3.0\src\personaje.cpp
 	"Personaje.h"
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
-
-1510632726 source:d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\src\plataformas.cpp
-	"Plataformas.h"
-	<SFML/Graphics.hpp>
-	<SFML/Audio.hpp>
-
-1510632726 source:d:\users\pavilion\documents\github\trabajo-final\jump mario 3.0\src\texto.cpp
+	"sstream"
+	"iostream"
 	"Texto.h"
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
+
+1511848221 source:d:\users\pavilion\desktop\jump mario 3.0\src\plataformas.cpp
+	"Plataformas.h"
+	"sstream"
+	"iostream"
+	"time.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Sonidos.h"
+
+1511763835 source:d:\users\pavilion\desktop\jump mario 3.0\src\texto.cpp
+	"Texto.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511194877 source:d:\users\pavilion\desktop\jump mario 3.0\main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Menu.h"
+	"Sonidos.h"
+
+1511845691 source:d:\users\pavilion\desktop\jump mario 3.0\src\game_over.cpp
+	"Game_over.h"
+	"sstream"
+	"iostream"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Texto.h"
+	"Puntaje.h"
+
+1511660035 d:\users\pavilion\desktop\jump mario 3.0\include\sonidos.h
+	<SFML/Audio.hpp>
+
+1511848398 source:d:\users\pavilion\desktop\jump mario 3.0\src\sonidos.cpp
+	"Sonidos.h"
+	<SFML/Audio.hpp>
+
+1511196629 source:d:\users\pavilion\desktop\jump mario 3.0\src\koopas.cpp
+	"Koopas.h"
+	"Enemigos.h"
+	"Juego.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511196629 d:\users\pavilion\desktop\jump mario 3.0\include\koopas.h
+	"Enemigos.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511826657 d:\users\pavilion\desktop\jump mario 3.0\include\koopasv.h
+	"Enemigos.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511826679 source:d:\users\pavilion\desktop\jump mario 3.0\src\koopasv.cpp
+	"Koopasv.h"
+	<iostream>
+	"Enemigos.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511844006 d:\users\pavilion\desktop\jump mario 3.0\include\puntaje.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Texto.h"
+	"Enemigos.h"
+	"Plataformas.h"
+
+1511845126 source:d:\users\pavilion\desktop\jump mario 3.0\src\puntaje.cpp
+	"Puntaje.h"
+	"sstream"
+	"iostream"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Texto.h"
+	"Enemigos.h"
+	"Plataformas.h"
+
+1511403070 d:\users\pavilion\desktop\jump mario 3.0\include\recursos.h
+	<string>
+	<list>
+	<iostream>
+
+1511403205 d:\users\pavilion\desktop\jump mario 3.0\include\object_pool.h
+	"Recursos.h"
+	<string>
+	<list>
+	<iostream>
+	<list>
+	<iostream>
+
+1511407583 d:\users\pavilion\desktop\jump mario 3.0\include\conversion.h
+	"sstream"
+	"iostream"
+	<SFML/Graphics.hpp>
+
+1511194877 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Menu.h"
+	"Sonidos.h"
+
+1511678060 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\menu.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Juego.h"
+	"Texto.h"
+	"Fondo.h"
+	"Sonidos.h"
+
+1511866439 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\juego.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	"Plataformas.h"
+	"Personaje.h"
+	"Game_over.h"
+	"Enemigos.h"
+	"Fondo.h"
+	"Sonidos.h"
+	"Puntaje.h"
+
+1511866126 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\plataformas.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Sonidos.h"
+	"Enemigos.h"
+
+1511660035 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\sonidos.h
+	<SFML/Audio.hpp>
+
+1511826657 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\enemigos.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511818274 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\personaje.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Texto.h"
+
+1511763835 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\texto.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511845248 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\game_over.h
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Texto.h"
+	"Personaje.h"
+	"Puntaje.h"
+
+1511864414 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\puntaje.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Texto.h"
+	"Enemigos.h"
+	"Plataformas.h"
+
+1511660040 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\fondo.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511826657 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\enemigos.cpp
+	"Enemigos.h"
+	"time.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511027825 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\fondo.cpp
+	"Fondo.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511864415 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\game_over.cpp
+	"Game_over.h"
+	"sstream"
+	"iostream"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Texto.h"
+	"Puntaje.h"
+
+1511826657 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\goombas.cpp
+	"Goombas.h"
+	<iostream>
+	"Enemigos.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511826657 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\goombas.h
+	"Enemigos.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511866439 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\juego.cpp
+	"Juego.h"
+	"time.h"
+	"sstream"
+	"iostream"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Plataformas.h"
+	"Game_over.h"
+	"Enemigos.h"
+	"Goombas.h"
+	"Koopasv.h"
+	"Menu.h"
+	"Fondo.h"
+	"Sonidos.h"
+	"Puntaje.h"
+
+1511826657 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\koopasv.h
+	"Enemigos.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511865397 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\koopasv.cpp
+	"Koopasv.h"
+	<iostream>
+	"Enemigos.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511832815 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\menu.cpp
+	"Menu.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<time.h>
+	"Juego.h"
+	"Texto.h"
+	"Fondo.h"
+	"Sonidos.h"
+
+1511813376 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\personaje.cpp
+	"Personaje.h"
+	"sstream"
+	"iostream"
+	"Texto.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511866301 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\plataformas.cpp
+	"Plataformas.h"
+	"sstream"
+	"iostream"
+	"time.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Sonidos.h"
+
+1511848398 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\sonidos.cpp
+	"Sonidos.h"
+	<SFML/Audio.hpp>
+
+1511763835 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\texto.cpp
+	"Texto.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1511864415 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\puntaje.cpp
+	"Puntaje.h"
+	"sstream"
+	"iostream"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Texto.h"
+	"Enemigos.h"
+	"Plataformas.h"
 

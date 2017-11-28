@@ -1,0 +1,11 @@
+Instrucciones:
+
+*Al ejecutar el juego se desplegara la ventana del menu principalpresionar la tecla numerica indicada para 
+ escoger a su personaje preferido mencionados en la ventana o presione ESC para cerrar la ventana.
+
+*Si presiono una tecla numerica inmediatamente se desplegara la ventana principal del juego utilizar las 
+ teclas de direccion horizontales para poder desplegarse horizontalmente.
+
+*Solo se puede colisionar con el enemigo en la cabeza si se conlisiona con otra parte se pierden vidas.
+
+*Si la vida llega a 0 o si la posicion del personaje es meno que el limite de la ventana pierdes.
