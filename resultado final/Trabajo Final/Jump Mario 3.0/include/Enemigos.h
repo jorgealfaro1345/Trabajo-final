@@ -14,8 +14,6 @@ class Enemigos
         Sprite *spr_enemigo;
         int ex,ey,mx,pos_max;;
         float vel_x=0,vel_y=0;
-        struct point{int ex,ey;};
-        point enem[10];
         int cant_enem;
 
         int* puntos_enem;

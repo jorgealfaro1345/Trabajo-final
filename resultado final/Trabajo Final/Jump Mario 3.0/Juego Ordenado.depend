@@ -1093,7 +1093,7 @@
 1511660035 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\sonidos.h
 	<SFML/Audio.hpp>
 
-1511826657 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\enemigos.h
+1511868675 d:\users\pavilion\desktop\trabajo final\jump mario 3.0\include\enemigos.h
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 
@@ -1157,7 +1157,7 @@
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 
-1511866439 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\juego.cpp
+1511880351 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\juego.cpp
 	"Juego.h"
 	"time.h"
 	"sstream"
@@ -1179,7 +1179,7 @@
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 
-1511865397 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\koopasv.cpp
+1511869374 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\koopasv.cpp
 	"Koopasv.h"
 	<iostream>
 	"Enemigos.h"
@@ -1204,7 +1204,7 @@
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 
-1511866301 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\plataformas.cpp
+1511869459 source:d:\users\pavilion\desktop\trabajo final\jump mario 3.0\src\plataformas.cpp
 	"Plataformas.h"
 	"sstream"
 	"iostream"

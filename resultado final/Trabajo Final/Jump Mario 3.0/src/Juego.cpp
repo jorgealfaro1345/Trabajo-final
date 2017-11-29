@@ -61,7 +61,7 @@ Juego::Juego(int _ancho, int _alto,std::string _nombre, int pers)
     {
         enemigos[i]=new Goombas;
         enemigos[i]->Imagen_sprite();
-        enemigos[i]->ex=plat_ladrillos->plat[i].x+i*2;
+        enemigos[i]->ex=plat_ladrillos->plat[i].x;
         enemigos[i]->pos_max=plat_ladrillos->px+107;
     }
 
